@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <div id="wins">Wins: <span id="win"></span></div>
+    <h1 id="title">Hangman</h1>
+    <div id="losses">Losses: <span id="loss"></span></div>
+</header>
+<div id="hangman_Canvas">
+    <img src="hangman_Pictures/hangman_Empty.png">
+</div>
+<div id="alphabet_Div"></div>
+<div id="word"></div>
+<div id="guess_Count">Guesses left: <span id="minGuess"></span> of <span id="maxGuess"></span></div>
+<div id="game_Over">INCORRECT!</div>
+<div id="game_Correct">CORRECT!</div>
+<div id="continue"><button id="continue_Button">Continue</button></div>
+<div id="restart"><button id="restart_Button">Reset Score</button></div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+</script>
+<script src="main.js"></script>
+</body>
+</html>
