@@ -5,6 +5,7 @@ header
     top: 0;
     left: 0;
     right: 0;
+    box-shadow: black 0px 10px 20px;
 }
 #title
 {
